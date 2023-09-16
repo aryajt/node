@@ -1,5 +1,3 @@
-# CLI Note Management Application
-
 This is a simple Command Line Interface (CLI) application that allows users to create, list, find, remove, and query notes from a collection. It also features a "db mode" where you can work with a PostgreSQL database for note management.
 
 ## Table of Contents

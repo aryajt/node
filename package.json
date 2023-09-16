@@ -3,7 +3,7 @@
     "@types/node": "^20.6.1",
     "@types/pg": "^8.10.2"
   },
-  "dependencies": {
+    "dependencies": {
     "pg": "^8.11.3"
   }
 }

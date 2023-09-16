@@ -28,7 +28,7 @@ Before you begin, ensure you have the following installed on your system:
 
    ```bash
    git clone <repository_url>
-   cd cli-notes-app
+   cd node
    npm install
    npx tsc
 
@@ -37,6 +37,7 @@ Usage
 Basic Commands
 Here are the basic commands you can use with this CLI application:
 
+Running by : node src.js
 create <note_content>: Create a new note with the specified content.
 list: List all notes.
 find <query>: Find notes containing the specified query.
@@ -50,6 +51,7 @@ To enter "db mode" and work with a PostgreSQL database for note management, use 
 command: "db mode"
 In "db mode," you can use the following additional commands:
 
+For using this mode, first of all you need to create a database with name : node_db.
 create_table: Create a PostgreSQL table to store notes.
 insert_note <note_content>: Insert a note into the PostgreSQL database.
 query_notes: Query and list all notes from the PostgreSQL database.

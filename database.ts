@@ -4,7 +4,7 @@ import { Pool } from 'pg';
 const db = new Pool({
     user: 'myuser',
     host: 'localhost',
-    database: 'django-todo',
+    database: 'nodejs_db',
     password: 'mypassword',
     port: 5432,
 });
